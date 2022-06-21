@@ -1,0 +1,93 @@
+#mint {
+  height: 100vh;
+  background-color: #0c0c0c;
+  margin-left: 280px;
+  background-image: url("https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Teaser/dark-mode-t.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container_mint {
+  width: 89%;
+  max-width: 833px;
+  margin: auto;
+
+  width: 100%;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mint_panel {
+  background-color: #252525;
+  border-radius: 10px;
+  margin-top: 150px;
+  width: 100%;
+  padding: 20px;
+}
+
+.mint_title{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.mint_value{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.col_value{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: white;
+  
+}
+
+.col_value h2{
+  font-size: 1.7rem;
+}
+
+.col_value p{
+  font-size: 1.2rem;
+  color: grey;
+  line-height: 1.5;
+}
+
+
+@media screen and (max-width: 790px){
+  #mint{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+.mint_title{
+  text-align: center;
+}
+
+.mint_value{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+}

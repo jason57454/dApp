@@ -1,0 +1,155 @@
+#stake {
+  height: 100vh;
+  background-color: #0c0c0c;
+  margin-left: 280px;
+  background-image: url("https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Teaser/dark-mode-t.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container_stake {
+  max-width: 833px;
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.stake_panel {
+  background-color: #252525;
+  border-radius: 10px;
+  margin-top: 150px;
+  width: 100%;
+  padding: 20px;
+}
+
+.row_stake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.title_panel {
+  margin-bottom: 8px;
+  color: white;
+}
+
+.title_panel h2 {
+  margin-bottom: 4px;
+}
+
+.title_panel p {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.col_stake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  max-width: 33.333333%;
+  -ms-flex-preferred-size: 33.333333%;
+  flex-basis: 33.333333%;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-bottom: 2px;
+}
+
+.stake_wallet {
+  background: hsla(0, 0%, 100%, 0.2);
+  -webkit-box-shadow: 0 0 10px rgba(44, 39, 109, 0.1);
+  box-shadow: 0 0 10px rgba(44, 39, 109, 0.1);
+  border-radius: 10px;
+  padding: 14px 58px;
+  cursor: pointer;
+  max-width: 280px;
+  margin: 20px auto auto;
+}
+
+.stake_wallet p {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: white !important;
+  margin: 0 !important;
+}
+
+.area_wallet_stake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.area_wallet_stake p {
+  font-weight: 300;
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+a {
+  color: white;
+}
+
+@media screen and (max-width: 790px) {
+  #stake {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stake_panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .row_stake {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .col_stake {
+    max-width: 100%;
+  }
+}

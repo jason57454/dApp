@@ -1,0 +1,106 @@
+#dashboard {
+  height: 100vh;
+  background-color: #0c0c0c;
+  margin-left: 280px;
+  background-image: url("https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Teaser/dark-mode-t.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container_dashboard {
+  width: 100%;
+  max-width: 833px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.dashboard_panel {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #252525;
+
+  opacity: 0.9;
+}
+
+.flex_panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.flex_panel p {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.left_panel {
+  margin-right: 16px;
+}
+
+.right_panel {
+  margin-left: 16px;
+}
+
+.panel {
+  padding: 5px 0;
+
+  width: 400px;
+}
+
+.value {
+  font-size: 1.5rem !important;
+  margin-top: 5px;
+  font-weight: 700;
+  color: white !important;
+}
+
+@media screen and (max-width: 790px) {
+  #dashboard {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #dashboard {
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .flex_panel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .left_panel {
+    margin: 0;
+  }
+
+  .right_panel {
+    margin: 0;
+  }
+}

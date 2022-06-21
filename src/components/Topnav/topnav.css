@@ -1,0 +1,134 @@
+#topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 1000;
+}
+
+.container_topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn_topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buy_btn {
+  margin-right: 10px;
+
+  padding: 10px 40px;
+  background-color: grey;
+  border-radius: 3px;
+  color: black;
+}
+
+.container_buy:hover .buy_btn,
+.container_buy:hover .hide_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wallet_btn {
+  margin-left: 10px;
+
+  padding: 10px 25px;
+
+  color: white;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wallet_btn:hover {
+  background-color: #272727;
+  border-radius: 5px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.hide_btn {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #272727;
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.hide_btn p {
+  font-size: 0.8rem !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #b5b9bb;
+}
+
+.buy_tdj {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buy_mim,
+.buy_MIM {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 100%;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.container_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 790px) {
+  #topnav {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn_topnav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .wallet_btn {
+    margin-left: 0;
+  }
+}
