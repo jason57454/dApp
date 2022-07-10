@@ -2,6 +2,7 @@
 
 This dApp is made with react and html/css
 I used Browser Router to change tabs.
+
 For the logo, I used Mickey, and for the background some smoke image from google in order to remain anonymous.
 
 This is the Dashboard
